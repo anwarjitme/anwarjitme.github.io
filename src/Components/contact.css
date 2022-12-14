@@ -1,0 +1,83 @@
+.contact-main{
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+       
+}
+.contact-container{
+    width: 80%;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     box-shadow: inset 0px 2px 0.5px 0px rgba(158, 167, 231, 0.525);
+      
+ 
+}
+.contact-header{
+    margin-left: 140px;
+    color: white;
+}
+.left{
+    width: 25%;
+    margin: auto;
+}
+.left-card{
+    margin: 20px;
+    width: 90%;
+    background-color: #10151c;
+  padding: 10px;
+    border-radius: 8px;
+    padding: 10px;
+     box-shadow: inset 1px 1px 3px 1px rgba(158, 167, 231, 0.525);
+}
+.left-card img{
+    border-radius: 100px;
+}
+.card-up{
+    display: flex;
+}
+.card-up h3{
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+    font-weight: 700;
+}
+.card-down{
+    font-size: 15px;
+    margin: auto;
+margin-left: 10px;
+font-weight: 500;
+}
+.get-touch{
+    font-size: 20px;
+    text-align: left;
+}
+.right{
+    width:35% ;
+}
+input{
+    background-color: #12181f;
+    font-size: 16px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 300;
+    padding: 4px 10px 4px 10px
+}
+#connect-btn{
+    display: block;
+    margin: auto;
+    margin: 20px
+}
+.message_box{
+    height: 100px;
+    margin-top: 10px;
+}
+small{
+    color: #2323a2;
+    margin-left: 20px;
+font-size: 20px;
+font-weight: 500;
+}

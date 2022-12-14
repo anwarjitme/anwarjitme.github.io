@@ -3,7 +3,7 @@ import React from 'react'
 import Typewriter from "typewriter-effect";
 const Home = () => {
   return (
-    <div className="top" id="home">
+    <div className="top-home" id="home">
       <div className="profile_container">
         <div className="name_div">
           <h4>Hi, I am</h4>
@@ -13,7 +13,6 @@ const Home = () => {
           </div>
           <h4>I am a</h4>
           <h4>
-           
             <Typewriter
               className="typewriter"
               onInit={(typewriter) => {
@@ -32,7 +31,10 @@ const Home = () => {
               }}
             />
           </h4>
-          <div>
+          <div></div>
+          <div className="btn_div">
+            <button className="btn_">My Resume</button>
+            <button className="btn_">GitHub</button>
           </div>
         </div>
 

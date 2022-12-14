@@ -10,10 +10,11 @@ body {
 .navbar {
     display: flex;
   width: 100%;
-  height: 100px;
+  height: 75px;
   align-items: center;
   justify-content: space-around;
   position: fixed;
+  position: sticky;
   top:0;
   background-color: #000000;;
  
@@ -26,7 +27,7 @@ body {
 .navbar_con {
   display: flex;
   align-items: center;
-  height: 100px;
+  /* height: 100px; */
   justify-content: space-between;
 
 }
@@ -34,7 +35,9 @@ body {
   width: 250px;
 
 }
-
+.logo{
+  width: 95%;
+}
 .logo:hover{
     /* box-shadow: inset 0px 5px 10px 0px rgba(0,255,255,0.7); */
   transform: translateY(-5px);

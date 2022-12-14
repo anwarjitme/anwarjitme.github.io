@@ -1,0 +1,86 @@
+.main{
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+.project-container{
+    padding-top: 20px;
+width: 80%;
+margin: auto;
+/* height: 75vh; */
+display: flex;
+flex-direction: column;
+/* gap: 10px; */
+border-radius: 15px;
+  box-shadow: inset 0px 2px 0px rgba(158, 167, 231, 0.525);
+
+}
+.project-header{
+    margin-left: 140px;
+    color: white;
+}
+.project-card{
+    width: 100%;
+    margin-bottom: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+     box-shadow: 10px 10px 20px 0px rgba(164, 165, 177, 0.525);
+}
+.project-desc{
+    width: 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.project-details{
+    font-size: 16px;
+    font-weight: 300;
+}
+.project-img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.project-img:hover{
+ transform:translateY(-6px);
+ box-shadow: 10px 10px 20px 0px rgba(164, 165, 177, 0.525);
+ 
+}
+.project-name{
+    font-size: 30px;
+    color: rgb(35, 35, 162);
+}
+.tech-stake{
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tech-img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+.btn-div{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    background-color: #2323a2;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 7px 14px 7px 14px;
+    color: white;
+}
+.btn:hover{
+    background-color: gray;
+}

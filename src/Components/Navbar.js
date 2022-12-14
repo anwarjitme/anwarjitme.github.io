@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="nav-logo">
               <img
                 className="logo"
-                src="/images/name_logo.png"
+                src="/images/logo.png"
                 alt="nav_logo"
               />
             </div>
@@ -25,13 +25,13 @@ const Navbar = () => {
               <a href="#about">About Me</a>
             </li>
             <li className="li_skills">
-              <a href="">Skills</a>
+              <a href="#skills">Skills</a>
             </li>
             <li className="li_projects">
-              <a href="">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li className="li_contact">
-              <a href="">Contact Me</a>
+              <a href="#contact">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -42,5 +42,4 @@ const Navbar = () => {
     </nav>
   );
 }
-
 export default Navbar

@@ -23,6 +23,7 @@ const About = () => {
             Eager to be a part of a team which gives me ability to learn and
             grow.
           </h3>
+         
         </div>
       </div>
     </section>
