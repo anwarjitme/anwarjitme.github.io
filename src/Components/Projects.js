@@ -2,36 +2,44 @@ import React from 'react'
 import "./projects.css"
 const Projects = () => {
   return (
-    <div className="main" id="projects">
+    <div id="projects">
       <h3 className="project-header">Projects</h3>
       <div className="project-container">
         <div className="project-card">
           <div className="project-desc">
-            <h3 className="project-name">LifeStyle Clone</h3>
+            <h3 className="project-name">HubSpot Clone</h3>
             <h4 className="project-details">
-              Lifestyle is India's leading fashion destination for the latest
-              trends. Part of Dubai based retail and hospitality conglomerate -
-              The Landmark Group, Lifestyle brings multiple categories including
-              men, women and kids’ apparel, footwear, handbags, fashion
-              accessories and beauty under one roof.
+              A CRM platform that connects everything scaling companies need to
+              deliver a best-in-class customer experience into one place.
+              HubSpot gives services for cunsultancy, onboarding fpr pertners
+              and start-up
             </h4>
             <div className="tech-stake">
-              <img className="tech-img" src="/images/HTML.png" alt="tech" />
               <img className="tech-img" src="/images/CSS.png" alt="tech" />
-              <img
-                className="tech-img"
-                src="/images/JavaScript.png"
-                alt="tech"
-              />
               <img className="tech-img" src="/images/react.png" alt="tech" />
+              <img className="tech-img" src="/images/redux.png" alt="tech" />
               <img className="tech-img" src="/images/Chakra.png" alt="tech" />
             </div>
             <div className="btn-div">
-              <button className="btn">Code</button>
-              <button className="btn">Demo</button>
+              <a
+                className="a-tag"
+                href="https://github.com/anwarjitme/green-room-4314"
+              >
+                Code
+              </a>
+              <a
+                className="a-tag"
+                href="https://drive.google.com/file/d/1_FqquLd5QgH_3y5PTL3fLk1HCuhADugB/view"
+              >
+                Demo
+              </a>
             </div>
           </div>
-          <img className="project-img" src="/images/lifee.png" alt="project1" />
+          <img
+            className="project-img"
+            src="/images/hubspot.png"
+            alt="project1"
+          />
         </div>
         <div className="project-card">
           <div className="project-desc">
@@ -55,8 +63,15 @@ const Projects = () => {
               <img className="tech-img" src="/images/Chakra.png" alt="tech" />
             </div>
             <div className="btn-div">
-              <button className="btn">Code</button>
-              <button className="btn">Demo</button>
+              <a
+                className="a-tag"
+                href="https://github.com/anwarjitme/busy-motion-6100"
+              >
+                Code
+              </a>
+              <a className="a-tag" href="https://lifee-app.vercel.app/">
+                Demo
+              </a>
             </div>
           </div>
           <img className="project-img" src="/images/lifee.png" alt="project1" />
@@ -79,15 +94,23 @@ const Projects = () => {
                 src="/images/JavaScript.png"
                 alt="tech"
               />
-              <img className="tech-img" src="/images/react.png" alt="tech" />
-              <img className="tech-img" src="/images/Chakra.png" alt="tech" />
             </div>
             <div className="btn-div">
-              <button className="btn">Code</button>
-              <button className="btn">Demo</button>
+              <a
+                className="a-tag"
+                href="https://github.com/mukundjha1310/Envoy.com"
+              >
+                Code
+              </a>
+              <a
+                className="a-tag"
+                href="https://clinquant-lily-763c81.netlify.app/"
+              >
+                Demo
+              </a>
             </div>
           </div>
-          <img className="project-img" src="/images/lifee.png" alt="project1" />
+          <img className="project-img" src="/images/shine.png" alt="project1" />
         </div>
         {/* <div className="project-card"></div> */}
       </div>

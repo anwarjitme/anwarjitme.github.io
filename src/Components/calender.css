@@ -1,0 +1,104 @@
+.calendar_top{
+    width: 100%;
+    height: 100hv;
+    align-items: center;
+    
+}
+.calendar_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  border-radius: 15px;
+    height: 70vh;
+     box-shadow: inset 0px 5px 7px 0px rgba(158, 167, 231, 0.525);
+     padding-top: 10px;
+     margin-bottom: 10px;
+}
+.calender{
+    display: block;
+    width: 85%;
+    margin: auto;
+}
+.calendar_header{
+     margin-left: 140px;
+    color: white;
+    margin-top: 1%;
+}
+
+ @media screen and (max-width: 460px) {
+.calendar_header{
+    color: white;
+    margin-left: 5%;
+    font-size: 30px;
+}
+.calendar_top{
+    margin-bottom: 4%;
+}
+.calendar_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+     box-shadow: inset 0px 5px 5px 0px rgba(158, 167, 231, 0.525);
+}
+.calender{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.stats{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 4%
+}
+    
+ }
+   @media screen and (max-width: 960px) {
+.calendar_header{
+    color: white;
+    margin-left: 5%;
+    font-size: 30px;
+}
+.calendar_top{
+    margin-bottom: 4%;
+}
+.calendar_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+     box-shadow: inset 0px 5px 5px 0px rgba(158, 167, 231, 0.525);
+}
+.calender{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.stats{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 4%
+}
+
+
+
+   }
+

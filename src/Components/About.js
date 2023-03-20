@@ -2,9 +2,9 @@ import React from "react";
 import "./about.css"
 const About = () => {
   return (
-    <section className="top" id="about">
-      <h1 className="metag">About Me</h1>
-      <div className="container">
+    <section  id="about" class="about section">
+      <h1 className="about-tag">About Me</h1>
+      <div className="about_container">
         <img
           className="about_img"
           src="https://manojattri.vercel.app/static/media/working1.f1d32db1cbbe55b90885.webp"
@@ -23,7 +23,6 @@ const About = () => {
             Eager to be a part of a team which gives me ability to learn and
             grow.
           </h3>
-         
         </div>
       </div>
     </section>

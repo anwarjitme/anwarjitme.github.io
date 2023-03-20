@@ -1,4 +1,4 @@
-.main{
+#skills{
     width: 100%;
     margin: auto;
    
@@ -36,4 +36,29 @@ padding-top: 40px;
 }
 .skills-header{
     margin-left: 140px;
+    color: white;
 }
+                 /* <===========Media Querry==========> */
+ @media screen and (max-width: 740px) {
+.skills-container{
+margin-bottom: 20px;
+width: 90%;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 10px;
+border-radius: 10px;
+padding-top: 15px;
+  box-shadow: inset 0px 2px 0px rgba(158, 167, 231, 0.525);
+}
+.skills-header{
+    margin-left: 5%;
+    color: white;
+}
+.skills-tag{
+    font-size: 15px;
+    text-align: center;
+}
+
+ }
+                 

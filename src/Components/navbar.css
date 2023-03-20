@@ -4,10 +4,10 @@
   box-sizing: border-box;
   font-size: xx-large;
 }
-body {
+/* body {
   font-family: 'Poppins', sans-serif;
-}
-.navbar {
+} */
+#nav-menu {
     display: flex;
   width: 100%;
   height: 75px;
@@ -16,7 +16,8 @@ body {
   position: fixed;
   position: sticky;
   top:0;
-  background-color: #000000;;
+  background-color: #000000;
+  z-index: 5;
  
 }
 .nav_container {
@@ -43,7 +44,7 @@ body {
   transform: translateY(-5px);
   /* box-shadow: 10px 10px 20px 0px rgba(59, 60, 70, 0.525); */
 }
-.nav_right {
+.nav_right    {
   display: flex;
   list-style-type: none;
   width: 55%;
@@ -56,10 +57,14 @@ body {
   font-weight: 500;
   font-size: 18px;
 }
-.menu_button {
+.mobile-menu-icon{
 display: none;
 }
-@media screen and (max-width: 780px){
+
+@media screen and (max-width: 960px){
+  .nav-logo{
+    width: 50%;
+  }
     .nav-left {
         display: flex;
         top: 25px;
@@ -73,13 +78,13 @@ display: none;
     .mobile_nav{
         position: absolute;
         display: block;
-        background-color:#0f27f6;
+        background-color:rgb(35, 35, 162);
+        list-style: none;
         left: 0;
         top: 75px;
         width: 100%;
         transition: all 0.5s ease-out;
-        list-style: none;
-        
+            outline: none;
     }
     .li_home,
     .li_skills,
@@ -91,6 +96,8 @@ display: none;
         padding: 34px;
      transition: all 0.5s ease-out;
      color: white;
+     list-style: none;
+     outline: none;
     }
     .menu_button {
         display: block;
@@ -98,4 +105,15 @@ display: none;
         position: absolute;
 
     }
+    .mobile-menu-icon{
+display: block;
+position: absolute;
+font-size: 30px;
+color: #686f7c;
+background-color: #000000;
+border: none;
+outline: none;
+top: 15px;
+right: 25px;
+}
 }
