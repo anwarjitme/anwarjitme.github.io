@@ -18,7 +18,7 @@ const Navbar = () => {
               setScreen(false);
             }}
           >
-            <li className="li_home">
+            <li className="li_home" class="nav-link home">
               <a href="#home">Home</a>
             </li>
             <li className="li_about">

@@ -33,10 +33,10 @@
   margin: auto;
 }
 
-.typewriter {
+#user-detail-intro{
   font-size: 30px;
 }
-.name {
+#user-detail-name {
   color: rgb(35, 35, 162);
 }
 
@@ -60,13 +60,23 @@
   /* padding: 7px 14px 7px 14px; */
   color: white;
 }
+#contact-github{
+ background-color: #2323a2;
+  border: none;
+  border-radius: 15px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .resume-a {
   background-color: #2323a2;
   border: none;
   border-radius: 15px;
   font-size: 15px;
   text-decoration: none;
-  /* padding: 13px 14px 13px 16px; */
   color: white;
   padding: 10px;
   padding-left: 20px;
@@ -118,7 +128,7 @@
     
     color: white;
   }
-  .profile_pic {
+  .home-img{
     display: block;
     width: 100%;
     border-radius: 100%;

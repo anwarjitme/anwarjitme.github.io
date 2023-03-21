@@ -9,11 +9,11 @@ const Home = () => {
         <div className="name_div">
           <h4 className="hi-tag">Hi, I am</h4>
           <div style={{ display: "flex", margin: "auto" }}>
-            <h2 className="name">Md Hossain</h2>
+            <h2 id="user-detail-name">Md Hossain</h2>
             <img width="40px" src="/images/Hand_Wave.gif" alt="ok" />
           </div>
           <h4 className="hi-tag">I am a</h4>
-          <h4 className="typewriter">
+          <h4 id="user-detail-intro">
             FUll Stack Web Developer
             {/* <Typewriter
               className="typewriter"
@@ -40,16 +40,15 @@ const Home = () => {
             >
               My Resume
             </a>
-            <a className="resume-a" href="https://github.com/anwarjitme">
+            <a id="contact-github" href="https://github.com/anwarjitme">
               GitHub
             </a>
-
           </div>
         </div>
 
         <div className="pic_div">
           <img
-            className="profile_pic"
+          className="home-img"
             src="/images/profile_photo.jpg"
             alt="profile"
           />
