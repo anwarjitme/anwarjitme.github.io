@@ -35,7 +35,8 @@ const Home = () => {
           </h4>
           <div className="btn_div">
             <a
-              className="resume-a"
+              id="resume-link-2"
+                 
               href="https://drive.google.com/file/d/1_FqquLd5QgH_3y5PTL3fLk1HCuhADugB/view"
             >
               My Resume
@@ -48,7 +49,7 @@ const Home = () => {
 
         <div className="pic_div">
           <img
-          className="home-img"
+            className="home-img"
             src="/images/profile_photo.jpg"
             alt="profile"
           />

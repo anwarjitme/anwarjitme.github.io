@@ -34,7 +34,11 @@ const Navbar = () => {
               <a href="#contact">Contact</a>
             </li>
             <li className="li_contact">
-              <a href="/images/Md-Hossain-Resume.pdf" download>
+              <a
+                id="resume-link-1"
+                href="/images/Md-Hossain-Resume.pdf"
+                download
+              >
                 My Resume
               </a>
             </li>
