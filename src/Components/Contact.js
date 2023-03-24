@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div id="contact">
       <h3 className="contact-header">
-        Contact  <small className="get-touch">Get in touch</small>
+        Contact <small className="get-touch">Get in touch</small>
       </h3>
       <div className="contact-container">
         <div className="left">
@@ -14,19 +14,34 @@ const Contact = () => {
               <img src="/images/ph.png" alt="ph" />
               <h3>Phone :</h3>
             </div>
-            <h3 className="card-down">+918617600838</h3>
+            <h3 className="card-down" id="contact-phone">
+              +918617600838
+            </h3>
           </div>
           <div className="left-card">
             <div className="card-up">
               <img src="/images/email.png" alt="ph" />
               <h3>Email :</h3>
             </div>
-            <h3 className="card-down">er.mdhossain@gmail.com</h3>
+            <h3 id="contact-email" className="card-down">
+              er.mdhossain@gmail.com
+            </h3>
           </div>
           <div className="left-card">
             <div className="card-up">
               <img src="/images/location.png" alt="ph" />
               <h3>Location :</h3>
+            </div>
+            <div className="card-down">
+              <a
+                id="contact-github"
+                href="https://drive.google.com/file/d/1_FqquLd5QgH_3y5PTL3fLk1HCuhADugB/view"
+              >
+                GitHub
+              </a>
+              <a id="contact-linkedin" href="https://github.com/anwarjitme">
+                Linkedin
+              </a>
             </div>
             <h3 className="card-down">Malda, West Bengal</h3>
           </div>
@@ -47,7 +62,6 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      
     </div>
   );
 };

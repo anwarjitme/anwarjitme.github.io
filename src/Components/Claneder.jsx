@@ -24,7 +24,12 @@ const Claneder = () => {
       <h1 className="calendar_header">GitHub Calendar</h1>
       <div className="calendar_container">
         <Img className="calender" src={"/images/calender.png"} alt="cla" />
-        <Img className="stats" src={"/images/stats.png"} alt="stats" />
+        <Img
+          className="stats"
+          id="github-streak-stats"
+          src={"/images/stats.png"}
+          alt="stats"
+        />
         {/* <GitHubCalendar
 style={{margin:"auto"}}
 username="anwarjitme"

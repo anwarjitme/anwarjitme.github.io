@@ -13,13 +13,13 @@ const Skills = () => {
       { link: "/images/mongo.png", tag: "Mongodb" }
     ];
   return (
-    <div id="skills" >
+    <div id="skills">
       <h1 className="skills-header">Skills</h1>
-      <div className="skills-container" >
+      <div className="skills-container">
         {skillsData.map((item) => (
-          <div key={item.tag} className="grid-item">
-            <img className="skills-img" src={item.link} alt="item" />
-            <h4 className="skills-tag">{item.tag}</h4>
+          <div key={item.tag} className="skills-card">
+            <img className="skills-card-img" src={item.link} alt="item" />
+            <h4 className="skills-card-name">{item.tag}</h4>
           </div>
         ))}
       </div>

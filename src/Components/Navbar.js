@@ -33,7 +33,7 @@ const Navbar = () => {
             <li className="li_contact">
               <a href="#contact">Contact</a>
             </li>
-            <li className="li_contact">
+            <li className="li_contact" id="resume-button-1">
               <a
                 id="resume-link-1"
                 href="/images/Md-Hossain-Resume.pdf"
