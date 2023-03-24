@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css"
 const About = () => {
   return (
-    <section  id="about" className="about section">
+    <section id="about" className="about section">
       <h1 className="about-tag">About Me</h1>
       <div className="about_container">
         <img
@@ -10,7 +10,7 @@ const About = () => {
           src="https://manojattri.vercel.app/static/media/working1.f1d32db1cbbe55b90885.webp"
           alt="ok"
         />
-        <div className="about_text">
+        <div className="about_text" id="user-detail-intro">
           <h3>
             I am Result-oriented full-stack web developer, passionate about
             developing user-friendly web applications using MERN Stack.

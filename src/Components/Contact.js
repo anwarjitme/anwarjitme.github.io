@@ -33,13 +33,13 @@ const Contact = () => {
               <h3>Location :</h3>
             </div>
             <div className="card-down">
-              <a
-                id="contact-github"
-                href="https://drive.google.com/file/d/1_FqquLd5QgH_3y5PTL3fLk1HCuhADugB/view"
-              >
+              <a id="contact-github" href="https://github.com/anwarjitme">
                 GitHub
               </a>
-              <a id="contact-linkedin" href="https://github.com/anwarjitme">
+              <a
+                id="contact-linkedin"
+                href="https://www.linkedin.com/in/md-anwar-hossain1/"
+              >
                 Linkedin
               </a>
             </div>

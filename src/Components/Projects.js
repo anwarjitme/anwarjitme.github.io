@@ -43,6 +43,42 @@ const Projects = () => {
         </div>
         <div className="project-card">
           <div className="project-desc">
+            <h3 className="project-title">HubSpot Clone</h3>
+            <h4 className="project-description">
+              A CRM platform that connects everything scaling companies need to
+              deliver a best-in-class customer experience into one place.
+              HubSpot gives services for cunsultancy, onboarding fpr pertners
+              and start-up
+            </h4>
+            <div className="project-tech-stack">
+              <img className="tech-img" src="/images/CSS.png" alt="tech" />
+              <img className="tech-img" src="/images/react.png" alt="tech" />
+              <img className="tech-img" src="/images/redux.png" alt="tech" />
+              <img className="tech-img" src="/images/Chakra.png" alt="tech" />
+            </div>
+            <div className="btn-div">
+              <a
+                className="project-github-link"
+                href="https://github.com/anwarjitme/green-room-4314"
+              >
+                Code
+              </a>
+              <a
+                className="project-deployed-link"
+                href="https://drive.google.com/file/d/1_FqquLd5QgH_3y5PTL3fLk1HCuhADugB/view"
+              >
+                Demo
+              </a>
+            </div>
+          </div>
+          <img
+            className="project-img"
+            src="/images/hubspot.png"
+            alt="project1"
+          />
+        </div>
+        <div className="project-card">
+          <div className="project-desc">
             <h3 className="project-title">LifeStyle Clone</h3>
             <h4 className="project-description">
               Lifestyle is India's leading fashion destination for the latest

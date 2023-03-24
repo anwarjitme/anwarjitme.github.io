@@ -27,9 +27,12 @@ const Claneder = () => {
         <Img
           className="stats"
           id="github-streak-stats"
-          src={"/images/stats.png"}
+          src={
+            "[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=anwarjitme&type=png)](https://git.io/streak-stats)"
+          }
           alt="stats"
         />
+        <div id="github-stats-card"></div>
         {/* <GitHubCalendar
 style={{margin:"auto"}}
 username="anwarjitme"

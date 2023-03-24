@@ -21,19 +21,23 @@ const Navbar = () => {
             <li className="li_home" class="nav-link home">
               <a href="#home">Home</a>
             </li>
-            <li className="li_about">
+            <li className="li_about" class="nav-link about">
               <a href="#about">About</a>
             </li>
-            <li className="li_skills">
+            <li className="li_skills" class="nav-link skills">
               <a href="#skills">Skills</a>
             </li>
-            <li className="li_projects">
+            <li className="li_projects" class="nav-link projects">
               <a href="#projects">Projects</a>
             </li>
-            <li className="li_contact">
+            <li className="li_contact" class="nav-link contact">
               <a href="#contact">Contact</a>
             </li>
-            <li className="li_contact" id="resume-button-1">
+            <li
+              className="li_contact"
+              id="resume-button-1"
+              class="nav-link resume"
+            >
               <a
                 id="resume-link-1"
                 href="/images/Md-Hossain-Resume.pdf"
