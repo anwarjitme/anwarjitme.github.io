@@ -1,8 +1,12 @@
 import "./home.css";
 import React from "react";
+import doc from "../resume/myres.pdf";
 // import Typewriter from "typewriter-effect";
 // import { Container } from "@chakra-ui/react";
 const Home = () => {
+   const handleadd = () => {
+     window.open(doc, "_blank");
+   };
   return (
     <div id="home">
       <div className="profile_container">
@@ -36,7 +40,9 @@ const Home = () => {
           <div className="btn_div" id="resume-button-2">
             <a
               id="resume-link-2"
-              href="https://drive.google.com/file/d/1_FqquLd5QgH_3y5PTL3fLk1HCuhADugB/view"
+              href="/images/Md-Hossain-Resume.pdf"
+              download={"fw19_0076-Md_Hossain"}
+              onClick={handleadd}
             >
               My Resume
             </a>

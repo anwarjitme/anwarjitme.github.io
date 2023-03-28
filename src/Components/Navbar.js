@@ -1,7 +1,12 @@
 import React, { useState } from 'react'
 import "./navbar.css"
+import doc from "../resume/myres.pdf"
 const Navbar = () => {
     const [isScreen, setScreen] = useState(false);
+
+    const handleadd = ()=>{
+      window.open(doc,"_blank")
+    }
 
   return (
     <nav id="nav-menu">
@@ -40,8 +45,9 @@ const Navbar = () => {
             >
               <a
                 id="resume-link-1"
-                href="/images/Md-Hossain-Resume.pdf"
-                download
+                href="/images/Md-Hossain-Resume.pdf" 
+                download={"fw19_0076-Md_Hossain"}
+                onClick={handleadd}
               >
                 My Resume
               </a>

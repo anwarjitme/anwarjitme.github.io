@@ -1,51 +1,40 @@
 // import React from 'react'
-// import GitHubCalendar from "react-github-calendar"
-
-import { Img } from "@chakra-ui/react"
-import "./calender.css"
-// import  ReactToolTip from "react-tooltip"
+import GitHubCalendar from "react-github-calendar";
+import { Img } from "@chakra-ui/react";
+import "./calender.css";
 const Claneder = () => {
-// const SelectLastHalfYear= (contributions)=>{
-// const currentYear= new Date().getFullYear();
-// const currentMount= new Date().getMonth();
-// const shownMonths=10
-// return contributions.filter((day)=>{
-// const date=new Date(day.Date);
-// const monthOfDay= date.getMonth();
-// return (
-//     date.getFullYear()  === currentYear && 
-//     monthOfDay > currentMount - shownMonths && 
-//     monthOfDay <= currentMount
-// )
-// })
-// }
   return (
     <div className="calendar_top">
       <h1 className="calendar_header">GitHub Calendar</h1>
+      <div className="react-activity-calendar">
+        <GitHubCalendar username="anwarjitme" />
+      </div>
       <div className="calendar_container">
-        <Img className="calender" src={"/images/calender.png"} alt="cla" />
         <Img
           className="stats"
           id="github-streak-stats"
           src={
-            "[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=anwarjitme&type=png)](https://git.io/streak-stats)"
+            "https://github-readme-streak-stats.herokuapp.com?user=anwarjitme"
           }
           alt="stats"
         />
-        <div id="github-stats-card"></div>
-        {/* <GitHubCalendar
-style={{margin:"auto"}}
-username="anwarjitme"
-transformData={SelectLastHalfYear}
-blockSize={20}
-fontSize={20}
->  
-
-<ReactToolTip delayshow={20} html/>
-</GitHubCalendar> */}
+        <Img
+          className="stats"
+         id="github-stats"
+          src={"https://github-readme-stats.vercel.app/api?username=anwarjitme"}
+          alt="stats"
+        />
+        <Img
+          className="stats"
+          id="github-top-langs"
+          src={
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=anwarjitme"
+          }
+          alt="lang"
+        />
       </div>
     </div>
   );
-}
+};
 
-export default Claneder
+export default Claneder;
