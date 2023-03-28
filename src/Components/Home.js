@@ -41,8 +41,8 @@ const Home = () => {
             <a
               id="resume-link-2"
               href="/images/Md-Hossain-Resume.pdf"
-              download={"fw19_0076-Md_Hossain"}
               onClick={handleadd}
+              download={"fw19_0076-Md_Hossain"}
             >
               My Resume
             </a>

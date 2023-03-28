@@ -49,6 +49,13 @@
 margin-left: 10px;
 font-weight: 500;
 }
+#contact-github{
+     
+    width: 81px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .get-touch{
     font-size: 20px;
     text-align: left;

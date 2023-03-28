@@ -32,18 +32,18 @@ const Contact = () => {
               <img src="/images/location.png" alt="ph" />
               <h3>Location :</h3>
             </div>
-            <div className="card-down">
-              <a id="contact-github" href="https://github.com/anwarjitme">
-                GitHub
-              </a>
-              <a
-                id="contact-linkedin"
-                href="https://www.linkedin.com/in/md-anwar-hossain1/"
-              >
-                Linkedin
-              </a>
-            </div>
             <h3 className="card-down">Malda, West Bengal</h3>
+          </div>
+          <div className="left_card">
+            <a href="https://github.com/anwarjitme" id="contact-github">
+              <img src="/images/github.png" alt="github" />
+            </a>
+            <a
+              id="contact-linkedin"
+              href="https://www.linkedin.com/in/md-anwar-hossain1/"
+            >
+              <img src="/images/linkedin.gif" alt="in" />
+            </a>
           </div>
         </div>
         <div className="right">
