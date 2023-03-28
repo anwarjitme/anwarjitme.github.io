@@ -20,7 +20,7 @@ const Claneder = () => {
         />
         <Img
           className="stats"
-         id="github-stats"
+         id="github-stats-card"
           src={"https://github-readme-stats.vercel.app/api?username=anwarjitme"}
           alt="stats"
         />
