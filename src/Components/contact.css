@@ -50,11 +50,31 @@ margin-left: 10px;
 font-weight: 500;
 }
 #contact-github{
-     
-    width: 81px;
-    height: 80px;
-    margin-left: auto;
-    margin-right: auto;
+        background-color: #2323a2;
+ height: auto;
+  border: none;
+  border-radius: 15px;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  padding: 4%;
+}
+.git_in{
+  
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#contact-linkedin{
+     background-color: #2323a2;
+ height: auto;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 4%;
 }
 .get-touch{
     font-size: 20px;

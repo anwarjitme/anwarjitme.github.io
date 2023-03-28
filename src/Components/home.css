@@ -26,7 +26,7 @@
   text-align: left;
 }
 
-.profile_pic {
+.home-img{
   display: block;
   width: 94%;
   border-radius: 100%;
@@ -62,14 +62,17 @@
 }
 #contact-github{
  background-color: #2323a2;
+ height: auto;
   border: none;
   border-radius: 15px;
   font-size: 15px;
   text-decoration: none;
   color: white;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 3%;
+
+}
+#contact-github:hover {
+  background-color: gray;
 }
 .resume-a {
   background-color: #2323a2;

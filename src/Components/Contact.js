@@ -34,15 +34,16 @@ const Contact = () => {
             </div>
             <h3 className="card-down">Malda, West Bengal</h3>
           </div>
-          <div className="left_card">
+
+          <div className="git_in">
             <a href="https://github.com/anwarjitme" id="contact-github">
-              <img src="/images/github.png" alt="github" />
+              Github
             </a>
             <a
               id="contact-linkedin"
               href="https://www.linkedin.com/in/md-anwar-hossain1/"
             >
-              <img src="/images/linkedin.gif" alt="in" />
+           Linkedin
             </a>
           </div>
         </div>

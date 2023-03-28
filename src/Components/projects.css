@@ -1,7 +1,7 @@
 #projects{
     width: 100%;
     margin: auto;
-    margin-top: 100px;
+    margin-top:5px;
     padding-top: 50px;
 }
 .project-container{
@@ -70,7 +70,7 @@ border-radius: 15px;
     justify-content: space-around;
     align-items: center;
 }
-.project-deployed-link,project-github-link{
+.project-deployed-link{
   background-color: #2323a2;
   border: none;
   border-radius: 15px;
@@ -81,7 +81,21 @@ border-radius: 15px;
   padding-left: 20px;
   padding-right: 20px;
 }
-.project-github-link,project-deployed-link :hover{
+.project-github-link{
+      background-color: #2323a2;
+  border: none;
+  border-radius: 15px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.project-github-link :hover{
+  background-color: gray;
+}
+.project-deployed-link :hover{
   background-color: gray;
 }
 .btn{

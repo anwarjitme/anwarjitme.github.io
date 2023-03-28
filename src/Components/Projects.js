@@ -151,7 +151,7 @@ const Projects = () => {
           </div>
           <img className="project-img" src="/images/shine.png" alt="project1" />
         </div>
-        {/* <div className="project-card"></div> */}
+      
       </div>
     </div>
   );

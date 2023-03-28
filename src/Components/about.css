@@ -2,6 +2,7 @@
     width: 100%;
     height: 100hv;
     align-items: center;
+    margin-bottom: 20px;
     
 }
 .about_container{
@@ -22,6 +23,7 @@
 .about_img{
     display: block;
     width: 40%;
+    border-radius: 7%;
 }
 .about_text{
     width: 40%;
