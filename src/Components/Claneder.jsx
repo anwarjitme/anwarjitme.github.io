@@ -8,12 +8,12 @@ const Claneder = () => {
       <h1 className="calendar_header">GitHub Calendar</h1>
       <div className="calendar_container">
         <div id="git_calender" className="react-activity-calendar">
-          <GitHubCalendar username="anwarjitme" hideMonthLabels />
+          <GitHubCalendar username="anwarjitme"  />
         </div>
         <div className="git_cards">
           <div className="git_left">
+            <img
             
-            <Img
               className="stats"
               id="github-streak-stats"
               src={
@@ -21,7 +21,8 @@ const Claneder = () => {
               }
               alt="stats"
             />
-            <Img
+            <img
+           
               className="stats"
               id="github-stats-card"
               src={
@@ -31,7 +32,8 @@ const Claneder = () => {
             />
           </div>
 
-          <Img
+          <img
+      
             className="stats"
             id="github-top-langs"
             src={

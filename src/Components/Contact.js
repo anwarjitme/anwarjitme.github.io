@@ -1,6 +1,7 @@
 import "./contact.css";
 import React from "react";
-
+import git_pic from "../images/github.png"
+import linked_pic from "../images/linkedin.gif";
 const Contact = () => {
   return (
     <div id="contact">
@@ -37,13 +38,13 @@ const Contact = () => {
 
           <div className="git_in">
             <a href="https://github.com/anwarjitme" id="contact-github">
-              Github
+            <img  src={git_pic} alt="github" />
             </a>
             <a
               id="contact-linkedin"
               href="https://www.linkedin.com/in/md-anwar-hossain1/"
             >
-           Linkedin
+              <img id="contact-github" src={linked_pic} alt="github" />
             </a>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import "./home.css";
 import React from "react";
 import doc from "../resume/myres.pdf";
+import git_pic from "../images/github.png";
 const Home = () => {
    const handleadd = () => {
      window.open(doc, "_blank");
@@ -15,7 +16,7 @@ const Home = () => {
             <img width="40px" src="/images/Hand_Wave.gif" alt="ok" />
           </div>
           <h4 className="hi-tag">I am a</h4>
-          <h4 id="user-detail-intro">FUll Stack Web Developer</h4>
+          <h4>Full Stack Web Developer</h4>
           <div className="btn_div" id="resume-button-2">
             <a
               className="resume-a "
@@ -26,12 +27,8 @@ const Home = () => {
             >
               My Resume
             </a>
-            <a
-              className="resume-a "
-              id="contact-github"
-              href="https://github.com/anwarjitme"
-            >
-              GitHub
+            <a href="https://github.com/anwarjitme" id="contact-github">
+              <img src={git_pic} alt="github" />
             </a>
           </div>
         </div>

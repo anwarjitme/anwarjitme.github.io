@@ -5,9 +5,8 @@
     
 }
 .git_left{
-    width: 50%;
+    width: 60%;
     margin: auto;
-    /* height: 400px; */
 }
 #git_calender{
 margin: auto;
@@ -18,9 +17,9 @@ margin-bottom: 10px;
 }
 .git_cards{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
-    width: 100%;
+    width: 94%;
 }
 #github-streak-stats{
     width: 100%;
@@ -55,6 +54,56 @@ margin-bottom: 10px;
     color: white;
     margin-top: 1%;
 }
+   @media screen and (max-width: 960px) {
+.calendar_header{
+    color: white;
+    margin-left: 5%;
+    font-size: 30px;
+}
+.calendar_top{
+    margin-bottom: 4%;
+}
+.calendar_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+     box-shadow: inset 0px 5px 5px 0px rgba(158, 167, 231, 0.525);
+}
+.calender{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.stats{
+  
+    display: block;
+    margin: auto;
+    margin-top: 4%
+}
+.git_cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+  .git_left{
+    width: 80%;
+    margin: auto;
+}  
+#github-top-langs{
+    margin-top: 30px;
+    display: block;
+    margin: auto;
+}
+   }
 
  @media screen and (max-width: 460px) {
 .calendar_header{
@@ -85,49 +134,26 @@ margin-bottom: 10px;
     margin-top: 10px;
 }
 .stats{
-    width: 70%;
     display: block;
     margin: auto;
     margin-top: 4%
 }
-    
- }
-   @media screen and (max-width: 960px) {
-.calendar_header{
-    color: white;
-    margin-left: 5%;
-    font-size: 30px;
-}
-.calendar_top{
-    margin-bottom: 4%;
-}
-.calendar_container{
+.git_cards{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 90%;
-    height: auto;
-    margin: auto;
-    border-radius: 10px;
-     box-shadow: inset 0px 5px 5px 0px rgba(158, 167, 231, 0.525);
+    width: 95%;
 }
-.calender{
+  .git_left{
     width: 80%;
+    margin: auto;
+   
+}  
+#github-top-langs{
+    margin-top: 20px;
     display: block;
     margin: auto;
-    margin-bottom: 20px;
-    margin-top: 10px;
 }
-.stats{
-    width: 70%;
-    display: block;
-    margin: auto;
-    margin-top: 4%
-}
+ }
 
-
-
-   }
 

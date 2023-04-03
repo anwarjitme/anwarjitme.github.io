@@ -12,7 +12,7 @@
     width: 80%;
     margin: auto;
   border-radius: 15px;
-    height: 70vh;
+    /* height: 70vh; */
   
      box-shadow: inset 0px 5px 7px 0px rgba(158, 167, 231, 0.525);
 }
@@ -26,52 +26,20 @@
     border-radius: 7%;
 }
 .about_text{
-    width: 40%;
-    text-align: left;
+    width: 50%;
+    text-align: center;
 }
-.about_text>h3{
-    font-size: 20px;
-    margin-bottom: 16px;
+#user-detail-intro{
+     font-size: 22px;
+    word-spacing: 2px;
+
 }
+
 .metag{
     margin-left: 140px;
 }
    /* <====Media Querry=====> */
-   @media screen and (max-width: 460px) {
-.about-tag{
-    color: white;
-    margin-left: 5%;
-}
-.about_container{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 90%;
-    height: auto;
-    margin: auto;
-    border-radius: 10px;
-     box-shadow: inset 0px 5px 5px 0px rgba(158, 167, 231, 0.525);
-}
-.about_img{
-    display: block;
-    width: 90%;
-    margin: auto;
-    border-radius: 5px;
-    height: 35%;
-}
-.about_text{
-    width: 90%;
-    text-align: left;
-}
-.about_text>h3{
-    font-size: 15px;
-    /* margin-bottom: 16px; */
-}
-
-   }
-
+  
     @media screen and (max-width: 960px) {
 .about-tag{
     color: white;
@@ -100,8 +68,40 @@
     width: 90%;
     text-align: left;
 }
-.about_text>h3{
-    font-size: 20px;
-  
-}
+
     }
+     @media screen and (max-width: 460px) {
+.about-tag{
+    color: white;
+    margin-left: 5%;
+}
+.about_container{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+     box-shadow: inset 0px 5px 5px 0px rgba(158, 167, 231, 0.525);
+}
+.about_img{
+    display: block;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    height: 35%;
+}
+.about_text{
+    width: 90%;
+    text-align: center;
+}
+#user-detail-intro{
+    font-size: 15px;
+    word-spacing: 1px;
+
+}
+
+   }
