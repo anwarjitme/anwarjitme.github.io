@@ -4,7 +4,7 @@ import doc from "../resume/myres.pdf";
 import git_pic from "../images/github.png";
 const Home = () => {
   function handleadd  ()  {
-    window.open(doc, "_blank");
+    window.open("https://drive.google.com/drive/u/1/my-drive", "_blank");
   };
   return (
     <div id="home">
