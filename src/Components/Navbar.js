@@ -4,8 +4,8 @@ import doc from "../resume/myres.pdf"
 const Navbar = () => {
     const [isScreen, setScreen] = useState(false);
 
-    const handleadd = ()=>{
-      window.open(doc,"_blank")
+    function handleadd(){
+      window.open("https://drive.google.com/drive/u/1/my-drive","_blank");
     }
 
   return (
@@ -38,19 +38,23 @@ const Navbar = () => {
             <li className="li_contact" class="nav-link contact">
               <a href="#contact">Contact</a>
             </li>
-            <li
-              className="li_contact"
-              id="resume-button-1"
-              class="nav-link resume"
-            >
-              <a
-                id="resume-link-1"
-                href="/images/Md-Hossain-Resume.pdf" 
-                download={"fw19_0076-Md_Hossain"}
+            <li className="li_contact" class="nav-link resume">
+              <button
+                id="resume-button-1"
                 onClick={handleadd}
+                style={{ backgroundColor: "#000000", border: "none" }}
               >
-                My Resume
-              </a>
+                <a
+                  id="resume-link-1"
+                  href={doc}
+                  download="Md_Hossain_Resume"
+                  target="_blank"
+                  rel="noreferrer"
+             
+                >
+                  My Resume
+                </a>
+              </button>
             </li>
           </ul>
         </div>

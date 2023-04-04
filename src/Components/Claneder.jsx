@@ -1,6 +1,6 @@
 // import React from 'react'
 import GitHubCalendar from "react-github-calendar";
-import { Img } from "@chakra-ui/react";
+
 import "./calender.css";
 const Claneder = () => {
   return (

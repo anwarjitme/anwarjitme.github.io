@@ -143,7 +143,10 @@ const Projects = () => {
               >
                 Code
               </a>
-              <a className="project-deployed-link" href="karat-ten.vercel.app/">
+              <a
+                className="project-deployed-link"
+                href="https://frontend-one-wheat.vercel.app/"
+              >
                 Demo
               </a>
             </div>

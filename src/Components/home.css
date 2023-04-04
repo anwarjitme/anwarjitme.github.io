@@ -24,7 +24,11 @@
   border-radius: 100%;
 }
 .name_div {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  /* text-align: left; */
 }
 
 .home-img{
