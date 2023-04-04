@@ -12,11 +12,16 @@ const Home = () => {
         <div className="name_div">
           <h4 className="hi-tag">Hi, I am</h4>
           <div style={{ display: "flex", margin: "auto" }}>
-            <h2 id="user-detail-name">Md Hossain</h2>
+            <h1 id="user-detail-name">Md Hossain</h1>
             <img width="40px" src="/images/Hand_Wave.gif" alt="ok" />
           </div>
-          <h4 className="hi-tag">I am a</h4>
-          <h4>Full Stack Web Developer</h4>
+         
+          <a href="https://git.io/typing-svg">
+            <img
+              src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2323A2&width=435&lines=I+am+a+Full+Stack+Web+Developer;Proficient+in+MERN+technology+"
+              alt="Typing SVG"
+            />
+          </a>
           <div className="btn_div" id="resume-button-2">
             <a
               className="resume-a "
@@ -36,7 +41,7 @@ const Home = () => {
         <div className="pic_div">
           <img
             className="home-img"
-            src="/images/profile_photo.jpg"
+            src="https://avatars.githubusercontent.com/u/103638817?v=4"
             alt="profile"
           />
         </div>

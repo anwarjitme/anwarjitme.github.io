@@ -12,7 +12,7 @@
     width: 80%;
     margin: auto;
   border-radius: 15px;
-    /* height: 70vh; */
+    height: 70vh;
   
      box-shadow: inset 0px 5px 7px 0px rgba(158, 167, 231, 0.525);
 }
@@ -30,7 +30,9 @@
     text-align: center;
 }
 #user-detail-intro{
-     font-size: 22px;
+      font-size: 16px;
+    font-weight: 300;
+    text-align: left;
     word-spacing: 2px;
 
 }
