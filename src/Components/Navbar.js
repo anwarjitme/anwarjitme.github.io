@@ -5,7 +5,10 @@ const Navbar = () => {
     const [isScreen, setScreen] = useState(false);
 
     function handleadd(){
-      window.open("https://drive.google.com/drive/u/1/my-drive","_blank");
+      window.open(
+        "https://drive.google.com/file/d/1_FqquLd5QgH_3y5PTL3fLk1HCuhADugB/view",
+        "_blank"
+      );
     }
 
   return (

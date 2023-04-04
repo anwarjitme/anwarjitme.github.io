@@ -4,7 +4,10 @@ import doc from "../resume/myres.pdf";
 import git_pic from "../images/github.png";
 const Home = () => {
   function handleadd  ()  {
-    window.open("https://drive.google.com/drive/u/1/my-drive", "_blank");
+    window.open(
+      "https://drive.google.com/file/d/1_FqquLd5QgH_3y5PTL3fLk1HCuhADugB/view",
+      "_blank"
+    );
   };
   return (
     <div id="home">
